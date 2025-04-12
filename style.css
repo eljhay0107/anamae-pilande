@@ -1,0 +1,202 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(117, 42%, 67%);
+  color: #fff;
+  padding: 10px 20px;
+  
+}
+
+header .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('images/NATUREBG.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 70px;
+  font-family: 'Times New Roman';
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 24px;
+}
+
+/* Section styles */
+section {
+  padding: 0px 0px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 0px;
+  background-color: hsl(117, 42%, 67%);
+  text-align: center;
+  border-radius: 0px;
+background: linear-gradient(145deg, #58a053, #69be62);
+box-shadow:  50px 50px 100px #274725,
+             -50px -50px 100px #9dff93;
+}
+
+/* Activities section styles */
+.poster-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.poster-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Gallery styles */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 32%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(145deg, #58a053, #69be62);
+  border-radius: 12px;
+  box-shadow: 20px 20px 60px #3b7237, -20px -20px 60px #8bff87;
+  color: white;
+}
+
+.contact-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 20px;
+}
+
+.contact-details p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.contact-details i {
+  margin-right: 8px;
+  color: #fff;
+}
+
+.contact-details a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #79d185;
+  text-align: center;
+  padding: 10px;
+}
+
+#aboutus {
+  padding: 40px 40px;
+  background: linear-gradient(145deg, #58a053, #69be62);
+  box-shadow: 50px 50px 100px #274725, -50px -50px 100px #9dff93;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0; /* this removes space between rows and columns */
+}
+
+.about-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  
+}
+
+.about-text {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* This centers it vertically */
+  text-align: center;       /* Optional: centers the text horizontally */
+  border-radius: 12px;
+  backdrop-filter: blur(3px);
+}
+
+.about-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 16px; contain: center;
+}
